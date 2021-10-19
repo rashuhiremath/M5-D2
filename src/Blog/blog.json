@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "rashmi",
+    "surname": "hiremath",
+    "email": "rashuafz@gmail.com",
+    "date of birth": "20/10/1994",
+    "avatar": "https://ui-avatars.com/api/?name=John+Doe",
+    "createdAt": "2021-10-19T14:12:06.754Z",
+    "id": "hfng65nckuy610bn"
+  },
+  {
+    "name": "shweta",
+    "surname": "hiremath",
+    "email": "rashuafz@gmail.com",
+    "date of birth": "20/10/1994",
+    "avatar": "https://ui-avatars.com/api/?name=John+Doe",
+    "createdAt": "2021-10-19T14:12:24.915Z",
+    "id": "hfng65nckuy61ec3"
+  }
+]
