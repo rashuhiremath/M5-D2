@@ -1,6 +1,5 @@
 import express from "express"
-import listEndpoints from "express-list-endpoints"
-
+import listEndpoints from "express-list-endpoi
 
 import blogRouter from "./blog/index.js"
 
