@@ -19,7 +19,7 @@ const router = express.Router();
 // get all authors
 router.get("/", async (req, res, next) => {
   try {
-    const fileAsBuffer = fs.readFileSync(authorsFilePath);
+    const fileBuffer = fs.readFileSync(authorsFilePath);
     const fileAsString = fileAsBuffer.toString();
     const fileAsJSON = JSON.parse(fileAsString);
     res.send(fileAsJSON ,uniqid());
