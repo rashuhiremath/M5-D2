@@ -2,7 +2,7 @@ import express from "express"
 import listEndpoints from "express-list-endpoints"
 import cors from "cors";
 import { notFound, forbidden, catchAllErrorHandler } from "./new blog/errorHandle.js"
-import blogRouter from "./blog/index.js"
+// import blogRouter from "./blog/index.js"
 import router from "./new blog/index.js";
 
 const server = express()
@@ -29,7 +29,7 @@ const corsOpts = {
 server.use(express.json()) 
 server.use(cors(corsOpts));
 
-server.use("/authors", blogRouter) 
+// server.use("/authors", blogRouter) 
 server.use("/blogs", router)
 
 
