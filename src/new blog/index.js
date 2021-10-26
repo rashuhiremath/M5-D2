@@ -21,10 +21,10 @@ router.get("/", async (req, res, next) => {
     // const fileBuffer = fs.readFileSync(authorsFilePath);
     // const fileAsString = fileAsBuffer.toString();
     // const fileAsJSON = JSON.parse(fileAsString);
-const blogs = await getFileBuffer()
+//const blogs = await getFileBuffer()
 
 
-    res.send(blogs);
+    res.send({test: 'inside get route'});
   } catch (error) {
     next({ message: error.message });
   }
