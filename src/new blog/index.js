@@ -26,7 +26,7 @@ const blogs = await getFileBuffer()
 
     res.send(blogs);
   } catch (error) {
-    res.send(500).send({ message: error.message });
+    next({ message: error.message });
   }
 });
 
