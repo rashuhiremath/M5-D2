@@ -22,11 +22,9 @@ router.get("/", async (req, res, next) => {
     // const fileAsString = fileAsBuffer.toString();
     // const fileAsJSON = JSON.parse(fileAsString);
 const blogs = await getFileBuffer()
-
-
-    res.send(blogs);
+    res.status(200).send(blogs);
   } catch (error) {
-    next({ message: error.message });
+    next(error);
   }
 });
 
